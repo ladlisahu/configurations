@@ -1,0 +1,13 @@
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://localhost:8080/realms/ladli
+        registration:
+          oidc:
+            client-id: spring-cloud
+            client-secret: JWTio3H0hstGZuamFGGD8Z56aGYLLdmU
+
